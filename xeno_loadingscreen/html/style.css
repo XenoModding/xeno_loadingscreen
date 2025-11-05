@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background: #0a0a0a;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    width: 450px;
+}
+
+.logo {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.progress {
+    width: 100%;
+    background: rgba(255,255,255,0.1);
+    height: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%;
+    border-radius: 10px;
+    background: #ff0000;
+    transition: width 1.2s;
+}
+
+.rules-box {
+    margin-top: 25px;
+    padding: 15px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.rules-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.rules-box li {
+    margin: 6px 0;
+}
